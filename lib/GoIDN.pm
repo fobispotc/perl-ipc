@@ -52,8 +52,8 @@ sub BUILD {
         die "Unable to create IO::Handle for writer: $!";
     }
 
-    $self->_set_reader(  $io_reader);
-    $self->_set_writer( $io_writer);
+    $self->_set_reader( $io_reader );
+    $self->_set_writer( $io_writer );
     
 }
 
