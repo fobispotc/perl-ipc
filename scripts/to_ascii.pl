@@ -7,6 +7,6 @@ my $client = GoIDN->new(program => './scripts/idntest');
 
 # my $response = $client->to_ascii("español.com");
 
-timethis 1_000_000, sub {
+timethis -1, sub {
     my $response = $client->to_ascii("español.com");
 };
